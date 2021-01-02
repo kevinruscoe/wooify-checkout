@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx mix watch & http-server ./dist -p 8081"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "filename-regex": "^2.0.1",
+    "laravel-mix": "^6.0.6",
+    "mix-html-builder": "^0.7.0",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2",
+    "webpack-livereload-plugin": "^1.2.0",
+    "http-server": "^0.12.3",
+    "@tailwindcss/forms": "^0.2.1"
+  },
+  "dependencies": {
+  }
+}
