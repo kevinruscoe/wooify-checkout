@@ -8,6 +8,7 @@ mix
         require("tailwindcss"),
     ])
     .html({
+        htmlRoot: './src/{index,shipping,payment}.html',
         minify: false
     })
     .browserSync({
